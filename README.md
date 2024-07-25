@@ -1,8 +1,8 @@
 ## Description
-Esta es la app front de la prueba tecnica
+This is the frontend app for the technical test. It connects as a client to the backend socket to display both IoT data and logs that are also sent via the socket. Additionally, it makes API requests to insert, update, query, and delete users.
 
 ## Requirements
-Asegurate de tener instalado Node.js
+Make sure to have Node.js installed.
 
 ## Project setup
 ```

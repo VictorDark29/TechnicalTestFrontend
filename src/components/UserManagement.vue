@@ -120,6 +120,13 @@ export default {
   transform: scale(1.02);
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
+.user-list:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+.user-list {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
 button {
   background: linear-gradient(135deg, #73a5ff, #5477f5);
